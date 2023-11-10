@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1280px;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    min-height: 350px;
+    opacity: 96%;
+
+}
+
+.contenedor-galeria img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer{
+    display: flex;
+    min-height: 100px;
+    padding: 20px;
+    align-items: center;
+    background-color: #1E1A13;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    opacity: 94%;
+}
+
+.contenedor-caracteristicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    background-color: #1E1A13;
+    color: white; 
+    padding: 75px;
+    opacity: 98%;
+}
+
+.contenedor-caracteristicas div{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 35px 0px 15px;
+}
+.contenedor-caracteristicas .caja-carac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    font-size: 24px;
+    gap: 25px;
+
+}
+
+.conteneder-descripcion{
+    display: flex;
+    background-color: black;
+    color: white;
+    min-height: 350px;
+    justify-content: center;
+    padding: 70px;
+    gap: 50px;
+}
+
+.conteneder-descripcion div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.conteneder-descripcion img{
+    max-width: 400px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}

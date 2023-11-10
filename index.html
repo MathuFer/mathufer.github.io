@@ -200,17 +200,21 @@
         <!-- Contacto -->
         <div class="p-5 m-5" style="border: 1px solid black;">
           <h1 class="text-center text-decoration-underline">Contacto</h1>
-          <br>
-          <form action="#" class="text-center ">
-            <h4>Ingresa tus datos:</h4>
-            <label for=""><input type="text" placeholder="Email"style="font-size: larger;"></label>
-            <label for=""><input type="text" placeholder="Telefono" style="font-size: larger;"></label>
-            <button class="btn-dark" type="submit">Enviar</button>
-          </form>
+          <fieldset disabled>
+            <legend>Ingresa tus datos: </legend>
+            <div class="mb-3">
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Correo Electrónico">
+            </div>              
+           <button type="submit" class="btn btn-dark">Enviar</button>
+          </fieldset>
+
         </div>   
         
         <div class="text-center">
-          <p>	Creado por Mathias Hausdorf</p>
+          <p>	© 2023 By Mathias Hausdorf .Todos los derechos reservados.</p>
         </div>
     </footer>
 
